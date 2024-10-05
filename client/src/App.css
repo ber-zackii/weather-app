@@ -1,0 +1,51 @@
+.weather-icon {
+  width: 60px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-body {
+  background: #f0f8ff;
+  border-radius: 15px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    height: 10vh;
+}
+
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 100%;
+      padding: 100px;
+      margin: 0 !important;
+  }
